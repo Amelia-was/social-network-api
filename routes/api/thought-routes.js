@@ -17,7 +17,7 @@ router.route('/')
 router.route('/:thoughtId')
     .get(getThoughtById);
 
-// /api/thoughts/<thoughtId>
+// /api/thoughts/<thoughtId>/reactions
 router
     .route('/:thoughtId/reactions')
     .post(addReaction)
