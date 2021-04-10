@@ -15,7 +15,7 @@ router.route('/')
 
 // /api/thoughts/<thoughtId>
 router.route('/:thoughtId')
-    .post(getThoughtById);
+    .get(getThoughtById);
 
 // /api/thoughts/<thoughtId>
 router
